@@ -98,7 +98,9 @@ sudo chmod 750 /media/$USER
 
 **The chmod 750 is setting the permission for you and your group, which is Plex to be able to read and execute your files in the media folder**
 
+```
 sudo setfacl -m g:$USER:rwx /media/$USER/
+```
 
 **This command is utilitizing Active Control Lists. ACLs give more flexibity in permissions than your traditional CHMOD. The -m is to modify permissions, while the g: is to represent our group for accessing plex.**
 
