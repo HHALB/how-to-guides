@@ -168,9 +168,14 @@ YourDevice>show history
   show ip interface brief
   show history
 ```
-- The above are  the previous commands I've used on my setup but Cisco will store up to a 100 commands for you to look back on. Now let's talk about one the most important ones, and this show the running-config, which displays the active configuration for your device. Now lets type in the follow: 
+- The above are  the previous commands I've used on my setup but Cisco will store up to a 100 commands for you to look back on. Now let's talk about one the most important ones, and this show the running-config, which displays the active configuration for your device. Now lets type in the follow. First, we have to actually go into priviledge mode, but don't worry we aren't actually changing anything yet. We will go more indepth in the next section. Now let's get startted by typing : 
 ```
-YourDevice>show running-config
+YourDevice>Enable
+```
+- Now we can type out:
+
+```
+YourDevice#show running-config
 ```
 - You should get some results that look like this:
 ```
