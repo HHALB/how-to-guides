@@ -1,4 +1,4 @@
-# CCNA Syntax Exercises - Saving Configurations and Basic Configuration
+# CCNA Syntax Exercises - Saving Configurations
 
 # Summary 
 This tutorial will equip you with the fundamentals to manage your network device's configuration effectively. We'll cover:
